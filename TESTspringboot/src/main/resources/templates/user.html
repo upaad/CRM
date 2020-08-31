@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+    <script src="../static/js/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="../static/css/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <script src="../static/js/plugin/bootstrap-toastr/toastr.min.js"></script>
+    <link href="../static/js/plugin/bootstrap-toastr/toastr.min.css" rel="stylesheet" />
+
+<!--    <link rel="stylesheet" href="css/jquery-ui.custom.min.css" />-->
+<!--    <link rel="stylesheet" href="css/jquery.gritter.min.css" />-->
+<!--    <link rel="stylesheet" href="css/select2.min.css" />-->
+    <link rel="stylesheet" href="../static/css/bootstrap-editable.min.css" />
+
+    <link rel="stylesheet" href="../static/css/fonts.googleapis.com.css" />
+
+    <link rel="stylesheet" href="../static/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+<!--    <link rel="stylesheet" href="css/ace-skins.min.css" />-->
+<!--    <link rel="stylesheet" href="css/ace-rtl.min.css" />-->
+<!--    <script src="js/plugin/ace/ace-extra.min.js"></script>-->
+
+    <script src="../static/js/plugin/bootstrap/js/bootstrap.js"></script>
+    <link href="../static/js/plugin/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="../static/js/Emp/user.js"></script>
+</head>
+<body>
+<div class="breadcrumbs" id="breadcrumbs" style="height: 50px;">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="index.html">Home</a>
+        </li>
+        <li class="active">个人中心</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div>
+            <div id="user-profile-1" class="user-profile row">
+                <div class="col-xs-12 col-sm-3 center">
+                    <div class="space-26"></div>
+                    <div>
+                        <span class="profile-picture">
+                            <img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="images/emp/profile-pic.jpg" />
+                        </span>
+
+                        <div class="space-4"></div>
+
+                        <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
+                            <div class="inline position-relative">
+                                <a href="#" class="user-title-label dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ace-icon fa fa-circle light-green"></i>
+                                    &nbsp;
+                                    <span class="white" id="title_name">Admin</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-6"></div>
+                    <div class="hr hr12 dotted"></div>
+                    <div class="clearfix">
+                        <div class="grid1">
+                            <span class="bigger-175 blue" id="cusnum">0</span>
+                            <br />
+                            客户
+                        </div>
+                    </div>
+                    <div class="hr hr16 dotted"></div>
+                </div>
+
+                <div class="col-xs-12 col-sm-9">
+                    <div class="space-32"></div>
+                    <div class="profile-user-info profile-user-info-striped">
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 员工编号 </div>
+                            <div class="profile-info-value">
+                                <i class="fa fa-credit-card light-orange bigger-110"></i>
+                                <span class="editable" id="empid">001</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 账户名 </div>
+                            <div class="profile-info-value">
+                                <i class="fa  fa-laptop light-orange bigger-110"></i>
+                                <span class="editable" id="username">emp-001</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 密码 </div>
+                            <div class="profile-info-value">
+                                <i class="fa fa-key light-orange bigger-110"></i>
+                                <span class="editable" id="password"></span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 联系方式 </div>
+                            <div class="profile-info-value">
+                                <i class="fa fa-phone light-orange bigger-110"></i>
+                                <span class="editable" id="tel">13789341893</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 邮箱 </div>
+                            <div class="profile-info-value">
+                                <i class="fa fa-envelope light-orange bigger-110"></i>
+                                <span class="editable" id="email">3231231551@qq.com</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <div class="profile-info-name"> 职位 </div>
+                            <div class="profile-info-value">
+                                <i class="fa fa-users light-orange bigger-110"></i>
+                                <span class="editable" id="rolename">管理员</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<script src="js/plugin/ace/jquery-ui.custom.min.js"></script>-->
+<!--<script src="js/plugin/jquery.ui.touch-punch.min.js"></script>-->
+<!--<script src="js/plugin/ace/jquery.gritter.min.js"></script>-->
+<!--<script src="js/plugin/ace/bootbox.js"></script>-->
+<!--<script src="js/plugin/ace/jquery.easypiechart.min.js"></script>-->
+<!--<script src="js/plugin/ace/jquery.hotkeys.index.min.js"></script>-->
+<!--<script src="js/plugin/ace/bootstrap-wysiwyg.min.js"></script>-->
+<!--<script src="js/plugin/ace/select2.min.js"></script>-->
+<!--<script src="js/plugin/ace/spinbox.min.js"></script>-->
+<script src="../static/js/plugin/ace/bootstrap-editable.min.js"></script>
+<script src="../static/js/plugin/ace/ace-editable.min.js"></script>
+<!--<script src="js/plugin/ace/jquery.maskedinput.min.js"></script>-->
+<!--<script src="js/plugin/ace/ace-elements.min.js"></script>-->
+<!--<script src="js/plugin/ace/ace.min.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjf.dao.CustomerDao">
+    <resultMap type="com.hjf.entity.Customer" id="CustomerMap">
+        <result property="cusid" column="cusId" jdbcType="INTEGER"/>
+        <result property="cusname" column="cusName" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="contact" column="contact" jdbcType="VARCHAR"/>
+        <result property="tel" column="tel" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="empid" column="empid" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CustomerMap">
+        select
+          cusId, cusName, address, contact, tel, email,empid
+        from customer where cusId = #{cusid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CustomerMap">
+        select
+          cusId, cusName, address, contact, tel, email,empid
+        from java0608.customer
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CustomerMap">
+        select cusId, cusName, address, contact, tel, email,empid
+        FROM customer
+        <where>
+            <if test="cusid != null and cusid != 0">
+                and cusId = #{cusid}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="contact != null and contact != ''">
+                and contact = #{contact}
+            </if>
+            <if test="tel != null and tel != ''">
+                and tel = #{tel}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+            <if test="empid != null and empid != 0">
+                and empid = #{empid}
+            </if>
+            <if test="cusname != null and cusname != ''">
+                and cusname like concat('%',#{cusname} ,'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="queryByCus" resultType="com.hjf.entity.Customer">
+        select
+        cusId, cusName, address, contact, tel, email,empid
+        from java0608.customer
+        <where>
+            <if test="empid != null and empid != 0">
+                and empid = #{empid}
+            </if>
+            <if test="cusid != null and cusid != 0">
+                and cusId = #{cusid}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectNum" resultType="java.lang.Integer">
+        select count(*) from customer
+        <where>
+            empid = #{empid}
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="cusid" useGeneratedKeys="true">
+        insert into java0608.customer(cusName, address, contact, tel, email,empid)
+        values (#{cusname}, #{address}, #{contact}, #{tel}, #{email},#{empid})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update java0608.customer
+        <set>
+            <if test="cusname != null and cusname != ''">
+                cusName = #{cusname},
+            </if>
+            <if test="address != null and address != ''">
+                address = #{address},
+            </if>
+            <if test="contact != null and contact != ''">
+                contact = #{contact},
+            </if>
+            <if test="tel != null and tel != ''">
+                tel = #{tel},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+            <if test="empid != null and empid != ''">
+                empid = #{empid},
+            </if>
+        </set>
+        where cusId = #{cusid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from java0608.customer where cusId = #{cusid}
+    </delete>
+
+    <select id="queryAllBySel" resultMap="CustomerMap">
+        select cusId, cusName, address, contact, tel, email,empid
+        FROM customer
+        <where>
+            <if test="cusid != null and cusid != 0">
+                and customer.cusId = #{cusid}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="contact != null and contact != ''">
+                and contact = #{contact}
+            </if>
+            <if test="tel != null and tel != ''">
+                and tel = #{tel}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+            <if test="empid != null and empid != 0">
+                and empid = #{empid}
+                or cusId in
+                (select cusId from customershare
+                where empid = #{empid})
+            </if>
+            <if test="cusname != null and cusname != ''">
+                and cusname like concat('%',#{cusname} ,'%')
+            </if>
+        </where>
+    </select>
+
+</mapper>
