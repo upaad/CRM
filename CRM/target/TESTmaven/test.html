@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+    <script src="js/plugin/bootstrap/js/bootstrap.js"></script>
+    <link href="js/plugin/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="js/plugin/jquery-ui.min.js"></script>
+    <script src="js/plugin/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/plugin/ace/ace-elements.min.js"></script>
+    <script src="js/plugin/ace/ace.min.js"></script>
+</head>
+<body>
+<button id="btn_delete" type="button" class="btn btn-default">
+    <!--            <a href="#" id="id-btn-dialog2" class="btn btn-default">-->
+    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+    <!--            </a>-->
+</button>
+<div id="dialog-confirm" class="hide">
+    <div class="alert alert-info bigger-110">
+        确定删除该客户？
+    </div>
+    <div class="space-6"></div>
+    <p class="bigger-110 bolder center grey">
+        <i class="ace-icon fa fa-hand-o-right blue bigger-120"></i>
+        Are you sure?
+    </p>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function(title) {
+                var $title = this.options.title || '&nbsp;'
+                if( ("title_html" in this.options) && this.options.title_html == true )
+                    title.html($title);
+                else title.text($title);
+            }
+        }));
+
+        $( "#btn_delete" ).on('click', function(e) {
+            e.preventDefault();
+            $( "#dialog-confirm" ).removeClass('hide').dialog({
+                resizable: false,
+                width: '320',
+                modal: true,
+                title: "<div class='widget-header'><h4 class='smaller'><i class='ace-icon fa fa-exclamation-triangle red'></i> 删除客户</h4></div>",
+                title_html: true,
+                buttons: [
+                    {
+                        html: "<i class='ace-icon fa fa-trash-o bigger-110'></i>&nbsp; 删除",
+                        "class" : "btn btn-danger btn-minier",
+                        click: function() {
+                            $( this ).dialog( "close" );
+                        }
+                    },
+                    {
+                        html: "<i class='ace-icon fa fa-times bigger-110'></i>&nbsp; 否",
+                        "class" : "btn btn-minier",
+                        click: function() {
+                            $( this ).dialog( "close" );
+                        }
+                    }
+                ]
+            });
+        });
+    })
+</script>
+</body>
+</html>

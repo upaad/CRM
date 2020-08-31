@@ -1,0 +1,44 @@
+
+j
+java:S1192‚"LDefine a constant instead of duplicating this literal "currentPage" 4 times.(‘Ÿ· 8ÝÍ€¾¼.
+X	java:S125."<This block of commented-out lines of code should be removed.(Éö°¨8÷æì½¼.
+c
+java:S1192E"FDefine a constant instead of duplicating this literal "state" 4 times.(¾¹¶8‚Óë½¼.
+h
+java:S1192Y"FDefine a constant instead of duplicating this literal "total" 3 times.(Ú®Ñþÿÿÿÿ8÷æì½¼.
+S
+java:S1128"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8÷æì½¼.
+I
+java:S1172’"&Remove these unused method parameters.(µ ëÑøÿÿÿÿ8ÝÍ€¾¼.
+Q
+java:S1172M"/Remove this unused method parameter "response".(æ®ìµúÿÿÿÿ8÷æì½¼.
+p	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ ëÑøÿÿÿÿ8ÝÍ€¾¼.
+^
+java:S1128	"ARemove this unused import 'org.apache.ibatis.session.SqlSession'.(ÅŒ‡8¨õ÷½¼.
+M
+java:S1172‹"/Remove this unused method parameter "response".(ìëúŒ8ÝÍ€¾¼.
+o	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ®ìµúÿÿÿÿ8÷æì½¼.
+K
+java:S1172c"/Remove this unused method parameter "response".(¤ÛÎE8ÝÍ€¾¼.
+k	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìëúŒ8ÝÍ€¾¼.
+W	java:S107c"<Method has 8 parameters, which is greater than 7 authorized.(¤ÛÎE8ÝÍ€¾¼.
+h
+java:S1192)"FDefine a constant instead of duplicating this literal "empid" 4 times.(²Ê×éýÿÿÿÿ8÷æì½¼.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Á¸ƒ¼½.
+“
+java:S1130c"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(¤ÛÎE8ÝÍ€¾¼.
+i	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÛÎE8ÝÍ€¾¼.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(¢ªÅ8ÝÍ€¾¼.
+X	java:S125+"<This block of commented-out lines of code should be removed.(”¿æ·8÷æì½¼.
+Q
+java:S1128"/Remove this unused import 'com.hjf.dao.EmpDao'.(ò— Êùÿÿÿÿ8¨õ÷½¼.
+ˆ
+java:S1130c"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¤ÛÎE8ÝÍ€¾¼.
+S
+java:S2696="6Make the enclosing method "static" or remove this set.(í©„Ì8÷æì½¼.
+K
+java:S1172l".Remove this unused method parameter "request".(‚žÌ8ÝÍ€¾¼.
+R
+java:S1128"5Remove this unused import 'com.hjf.util.MyBatisUtil'.(ÖÊÚ¹8¨õ÷½¼.

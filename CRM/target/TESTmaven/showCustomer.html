@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客户</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <script src="js/plugin/bootstrap-toastr/toastr.min.js"></script>
+    <link href="js/plugin/bootstrap-toastr/toastr.min.css" rel="stylesheet" />
+
+    <script src="js/plugin/bootstrap/js/bootstrap.js"></script>
+    <link href="js/plugin/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="js/plugin/bootstrap/css/bootstrap-select.min.css" rel="stylesheet" />
+    <script src="js/plugin/bootstrap/js/bootstrap-select.min.js"></script>
+
+    <script src="js/plugin/bootstrapvalidator/bootstrapValidator.min.js"></script>
+    <link href="js/plugin/bootstrapvalidator/bootstrapValidator.min.css" rel="stylesheet"/>
+
+    <script src="js/plugin/bootstrap-table/bootstrap-table.min.js"></script>
+    <link href="js/plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+    <script src="js/plugin/bootstrap-table/bootstrap-table-zh-CN.min.js"></script>
+
+    <link rel="stylesheet" href="css/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="js/Emp/customer.js"></script>
+
+</head>
+<body class="no-skin">
+<div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="#">业务管理</a>
+        </li>
+        <li class="active">客户管理</li>
+    </ul>
+</div>
+<div class="panel-body" style="padding-bottom:0px;">
+    <div class="panel panel-default">
+        <div class="panel-heading">查询条件</div>
+        <div class="panel-body">
+            <form id="formSearch" class="form-horizontal">
+                <div class="form-group" style="margin-top:15px">
+                    <label class="control-label col-sm-1" for="txt_search_cusid">客户编号</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="txt_search_cusid">
+                    </div>
+                    <label class="control-label col-sm-1" for="txt_search_cusname">客户姓名</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="txt_search_cusname">
+                    </div>
+                    <div class="col-sm-4" style="text-align:left;">
+                        <button type="button" style="margin-left:50px" id="btn_query" class="btn btn-primary">查询</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="toolbar" class="btn-group">
+        <button id="btn_add" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+        </button>
+        <button id="btn_edit" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+        </button>
+        <button id="btn_delete" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+        </button>
+        <button id="btn_share" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-share" aria-hidden="true"></span>分享
+        </button>
+        <button id="btn_move" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-move" aria-hidden="true"></span>转移
+        </button>
+    </div>
+    <table id="tb_customer"></table>
+</div>
+<div class="modal fade" id="cusModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+                <form id="cusform">
+                    <input type="hidden" name="txt_cusid" id="txt_cusid">
+                    <div class="form-group">
+                        <label for="txt_cusname">客户姓名</label>
+                        <input type="text" name="txt_cusname" class="form-control" id="txt_cusname" placeholder="客户姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_address">地址</label>
+                        <input type="text" name="txt_address" class="form-control" id="txt_address" placeholder="地址">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_contact">联系人</label>
+                        <input type="text" name="txt_contact" class="form-control" id="txt_contact" placeholder="联系人">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_tel">联系方式</label>
+                        <input type="text" name="txt_tel" class="form-control" id="txt_tel" placeholder="联系方式">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_email">邮箱</label>
+                        <input type="text" name="txt_email" class="form-control" id="txt_email" placeholder="邮箱">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_empid">员工编号</label>
+                        <input type="text" name="txt_empid" class="form-control" id="txt_empid" placeholder="员工编号">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                <button type="button" id="btn_submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="cusMSModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                <h4 class="modal-title" id="MSLabel"></h4>
+            </div>
+            <div class="modal-body">
+                <form id="msform">
+                    <div class="form-group">
+                        <label for="txt_cusname">客户编号</label>
+                        <input type="text" name="txt_cusid" class="form-control" id="ms_cusid" readonly="readonly">
+                    </div>
+                    <div class="form-group">
+                        <label for="ms_cusname">客户姓名</label>
+                        <input type="text" name="ms_cusname" class="form-control" id="ms_cusname" readonly="readonly">
+                    </div>
+                    <div class="form-group">
+                        <label for="ms_empid">员工</label>
+                        <select  class="input-md selectpicker" id="ms_empid" data-live-search="true" title="请选择员工" data-size="5"></select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                <button type="button" id="btn_MSsubmit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ºÏòÍ
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü›ºÆýÿÿÿÿ8šƒ¾ß¾.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ—›Ûúÿÿÿÿ8Æ¨¾ß¾.
+E
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+ž
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8ê…¿ß¾.

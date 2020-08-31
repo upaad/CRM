@@ -1,0 +1,34 @@
+
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(—¤…¸8èğÉã½.
+J
+java:S11446"(Remove this unused private "st4" method.(¡‰³üÿÿÿÿ8øª¿Û½.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡8–‚»½.
+n
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ÙØ¤Şıÿÿÿÿ8–‚»½.
+E
+java:S1144/"(Remove this unused private "st3" method.(ÖÕ–8øª¿Û½.
+]	java:S125B"<This block of commented-out lines of code should be removed.(¬ôˆéûÿÿÿÿ8şšä½.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(—¤…¸8øª¿Û½.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8øª¿Û½.
+q
+java:S3252Y"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(…•º•ÿÿÿÿÿ8òì­é½.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(—¤…¸8øª¿Û½.
+D
+java:S1144!"'Remove this unused private "st" method.(Ÿ¿´8øª¿Û½.
+D
+java:S1144R"'Remove this unused private "t3" method.(ÈÏƒâ8ë »é½.
+]	java:S125L"<This block of commented-out lines of code should be removed.(ã›¦Šúÿÿÿÿ8×ë…æ½.
+U	java:S106h"9Replace this use of System.out or System.err by a logger.(§¯•Í8Û¦Â‚¾.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(—¤…¸8øª¿Û½.
+]	java:S125>"<This block of commented-out lines of code should be removed.(¡…€šüÿÿÿÿ8øª¿Û½.
+J
+java:S1144("(Remove this unused private "st2" method.(´ôñ‡ùÿÿÿÿ8øª¿Û½.
+D
+java:S1144c"'Remove this unused private "t5" method.(³ªÌ€8»Øœ…¾.
+D
+java:S1144A"'Remove this unused private "t1" method.(åÜİº8ø¶Øä½.
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8¼ƒ™…¾.
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(¯ô¢ô8á°Îä½.
+D
+java:S1144J"'Remove this unused private "t2" method.(¿é”À8¬êÏæ½.

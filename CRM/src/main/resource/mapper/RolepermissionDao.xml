@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjf.dao.RolepermissionDao">
+
+    <resultMap type="com.hjf.entity.Rolepermission" id="RolepermissionMap">
+        <result property="rpid" column="rpId" jdbcType="INTEGER"/>
+        <result property="roleid" column="roleId" jdbcType="INTEGER"/>
+        <result property="permissionid" column="permissionId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="RolepermissionMap">
+        select
+          rpId, roleId, permissionId
+        from java0608.rolepermission
+        where rpId = #{rpid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="RolepermissionMap">
+        select
+          rpId, roleId, permissionId
+        from java0608.rolepermission
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询 rpId, roleId, permissionId-->
+    <select id="queryAll" resultType="com.hjf.entity.Rolepermission">
+        select
+            rp.*, r.roleName, p.pname
+        from role r,rolepermission rp, permission p
+        <where>
+            r.roleId = rp.roleId and p.permissionId = rp.permissionId
+            <if test="rpid != null">
+                and rpId = #{rpid}
+            </if>
+            <if test="roleid != null">
+                and rp.roleId = #{roleid}
+            </if>
+            <if test="permissionid != null">
+                and rp.permissionId = #{permissionid}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="rpid" useGeneratedKeys="true">
+        insert into java0608.rolepermission(roleId, permissionId)
+        values (#{roleid}, #{permissionid})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update java0608.rolepermission
+        <set>
+            <if test="roleid != null">
+                roleId = #{roleid},
+            </if>
+            <if test="permissionid != null">
+                permissionId = #{permissionid},
+            </if>
+        </set>
+        where rpId = #{rpid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from java0608.rolepermission where rpId = #{rpid}
+    </delete>
+
+</mapper>

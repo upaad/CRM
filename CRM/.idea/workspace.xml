@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TESTmavenspring:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6d5b6f1-f114-42ad-a5cf-9957b55507d4" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/java0608?serverTimezone=GMT%2B8&amp;characterEncoding=utf-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/java0608?serverTimezone=GMT%2B8&amp;characterEncoding=utf-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/java0608?serverTimezone=GMT%2B8&amp;characterEncoding=utf-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="java0608: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/java0608?serverTimezone=GMT%2B8&amp;characterEncoding=utf-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="java0608: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="customervisit: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TESTmavenspring" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="52" column="26" selection-end-line="112" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>navbar</find>
+      <find>sidebar2</find>
+      <find>passwordT</find>
+      <find>regform</find>
+      <find>group</find>
+      <find>username</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/PermissionDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/user.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/main.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/main.html" />
+        <option value="$USER_HOME$/Desktop/框架/ace-master/jquery-ui.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/welcome.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/user.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/entity/Emp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showCustomerShare.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/impl/CustomershareServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/CustomershareDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/entity/Customershare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/CustomershareController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/CustomerDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showPerm.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/RolepermissionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showRole.html" />
+        <option value="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/UnathController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showCustomer.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showCustomerVisit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showRolePerm.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/EmpController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/EmpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/service/impl/EmpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/dao/EmpDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/perm.js" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/EmpMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/customershare.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/role.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/customer.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjf/entity/Rolepermission.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/roleperm.js" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/RolepermissionDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/showemp.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/error-500.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showEmp.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/Emp/customervisit.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\idea\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CRM Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CRM Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CRM" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CRM" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hjf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hjf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CRM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CRM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="NBKnowledgePane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hjf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15328467" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://www.baidu.com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\project\CRM\src\main\webapp\js\plugin" />
+      <recent name="E:\idea\project\CRM\src\main\webapp\js\plugin\ace" />
+      <recent name="E:\idea\project\CRM\src\main\webapp\css" />
+      <recent name="E:\idea\project\CRM\src\main\webapp\images\emp" />
+      <recent name="E:\idea\project\CRM\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hjf.controller" />
+      <recent name="com.hjf.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\project\CRM\src\main\webapp\css" />
+      <recent name="E:\idea\project\CRM\src\main\resource\mapper" />
+      <recent name="E:\idea\project\TESTmavenspring\src\main\webapp\css" />
+      <recent name="E:\idea\project\TESTmavenspring\src\main\webapp\js\Emp" />
+      <recent name="E:\idea\project\TESTmavenspring\src\main\resource\mapper" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="TESTmavenspring" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.35">
+    <configuration name="TestCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjf.controller.TestCon" />
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjf.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjf.main" />
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpController.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjf.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjf.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hjf.controller.EmpController" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpServiceImpl.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjf.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjf.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.hjf.service.impl.EmpServiceImpl" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcon.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjf.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjf.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hjf.controller.Testcon" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CRM exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TESTmaven" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5311" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestCon" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.Testcon.t" />
+      <item itemvalue="JUnit.EmpController.t" />
+      <item itemvalue="JUnit.EmpServiceImpl.t" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.35" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.TestCon" />
+        <item itemvalue="JUnit.EmpController.t" />
+        <item itemvalue="JUnit.EmpServiceImpl.t" />
+        <item itemvalue="JUnit.Testcon.t" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\hjf\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6d5b6f1-f114-42ad-a5cf-9957b55507d4" name="Default Changelist" comment="" />
+      <created>1596697790067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596697790067</updated>
+      <workItem from="1596697791806" duration="681000" />
+      <workItem from="1596761540678" duration="12103000" />
+      <workItem from="1596782139843" duration="1325000" />
+      <workItem from="1596783716537" duration="13681000" />
+      <workItem from="1596848018656" duration="2079000" />
+      <workItem from="1596855457815" duration="1412000" />
+      <workItem from="1597025403536" duration="956000" />
+      <workItem from="1597026414224" duration="14096000" />
+      <workItem from="1597112607201" duration="4407000" />
+      <workItem from="1597117183477" duration="14956000" />
+      <workItem from="1597194112266" duration="4460000" />
+      <workItem from="1597199474262" duration="15951000" />
+      <workItem from="1597281280417" duration="1016000" />
+      <workItem from="1597282472083" duration="594000" />
+      <workItem from="1597283155514" duration="17128000" />
+      <workItem from="1597315368503" duration="149000" />
+      <workItem from="1597315683943" duration="3591000" />
+      <workItem from="1597366540388" duration="13524000" />
+      <workItem from="1597389408144" duration="1190000" />
+      <workItem from="1597390744401" duration="6611000" />
+      <workItem from="1597402597203" duration="642000" />
+      <workItem from="1597403316694" duration="581000" />
+      <workItem from="1597404292239" duration="113000" />
+      <workItem from="1597404477805" duration="327000" />
+      <workItem from="1597405637695" duration="698000" />
+      <workItem from="1597406926046" duration="1117000" />
+      <workItem from="1597412510253" duration="5594000" />
+      <workItem from="1597452390641" duration="3679000" />
+      <workItem from="1597456445329" duration="20768000" />
+      <workItem from="1597557846461" duration="18914000" />
+      <workItem from="1597627379606" duration="23262000" />
+      <workItem from="1597662239500" duration="4557000" />
+      <workItem from="1597711944263" duration="6635000" />
+      <workItem from="1597731589017" duration="16652000" />
+      <workItem from="1597799233754" duration="8579000" />
+      <workItem from="1597824750833" duration="14188000" />
+      <workItem from="1597842638635" duration="3566000" />
+      <workItem from="1597848355101" duration="1258000" />
+      <workItem from="1597849670784" duration="666000" />
+      <workItem from="1597884048545" duration="12732000" />
+      <workItem from="1597904458214" duration="18468000" />
+      <workItem from="1597928536721" duration="10788000" />
+      <workItem from="1597971327538" duration="19130000" />
+      <workItem from="1597995317186" duration="10407000" />
+      <workItem from="1598018924549" duration="1135000" />
+      <workItem from="1598063522078" duration="8403000" />
+      <workItem from="1598166425872" duration="2814000" />
+      <workItem from="1598178272630" duration="12412000" />
+      <workItem from="1598229693618" duration="32067000" />
+      <workItem from="1598276738994" duration="6966000" />
+      <workItem from="1598316174066" duration="9577000" />
+      <workItem from="1598331325253" duration="25061000" />
+      <workItem from="1598362102183" duration="7407000" />
+      <workItem from="1598402593352" duration="14996000" />
+      <workItem from="1598421517003" duration="6218000" />
+      <workItem from="1598498589439" duration="44000" />
+      <workItem from="1598508089589" duration="125000" />
+      <workItem from="1598509718805" duration="2594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Testcon_t - 2020.08.15 at 11h 18m 07s.xml">
+      <configuration name="Testcon.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testcon_t - 2020.08.15 at 11h 18m 29s.xml">
+      <configuration name="Testcon.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testcon_t - 2020.08.15 at 11h 19m 00s.xml">
+      <configuration name="Testcon.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 19m 31s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 21m 43s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 22m 33s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpServiceImpl_t - 2020.08.15 at 11h 23m 44s.xml">
+      <configuration name="EmpServiceImpl.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 29m 18s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 30m 27s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmpController_t - 2020.08.15 at 11h 31m 16s.xml">
+      <configuration name="EmpController.t" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="463050000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954628" visible="true" weight="0.17324094" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.5045372" side_tool="true" weight="0.2228145" />
+      <window_info id="Favorites" order="6" sideWeight="0.50159234" side_tool="true" weight="0.14978679" />
+      <window_info id="Web" order="7" sideWeight="0.5032051" side_tool="true" weight="0.21641791" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25747862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35576922" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957264" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32905984" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.37179488" />
+      <window_info anchor="bottom" id="Messages" order="19" weight="0.40064102" />
+      <window_info anchor="bottom" id="Spring" order="20" weight="0.32371795" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.17643923" />
+      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Word Book" order="8" side_tool="true" weight="0.32932165" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
+      <window_info anchor="right" id="Database" order="10" weight="0.3496802" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="RestServices" order="13" weight="0.32942432" />
+      <window_info anchor="right" id="Codota" order="14" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="100" column="102" selection-start-line="100" selection-start-column="102" selection-end-line="100" selection-end-column="102" />
+          <folding>
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showCustomerShare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="70" column="97" selection-start-line="70" selection-start-column="97" selection-end-line="70" selection-end-column="97" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showCustomerVisit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="91" column="116" selection-start-line="91" selection-start-column="116" selection-end-line="91" selection-end-column="129" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showPerm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1849">
+          <caret line="104" column="77" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showRole.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="85" column="92" selection-start-line="85" selection-start-column="92" selection-end-line="85" selection-end-column="92" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showRolePerm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="89" column="129" selection-start-line="89" selection-start-column="129" selection-end-line="89" selection-end-column="129" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showCustomer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="142" column="127" selection-start-line="142" selection-start-column="127" selection-end-line="142" selection-end-column="127" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/service/EmpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/service/impl/EmpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#2242#2243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/util/CharacterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/dao/EmpDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/customershare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#390#4277#0" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#3701#7364#0" />
+            <element signature="e#6794#7216#0" />
+            <element signature="e#7381#13476#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/EmpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="92" />
+          <folding>
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/EmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="method#insert#0;class#EmpController#0" />
+            <element signature="method#update#0;class#EmpController#0" />
+            <element signature="method#delete#0;class#EmpController#0" />
+            <element signature="method#select#0;class#EmpController#0" />
+            <element signature="method#selectById#0;class#EmpController#0" />
+            <element signature="method#selectByUsername#0;class#EmpController#0" />
+            <element signature="method#selectByUsername2#0;class#EmpController#0" />
+            <element signature="method#selectByEmp#0;class#EmpController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+          <folding>
+            <element signature="e#226#3591#0" />
+            <element signature="e#312#3136#0" />
+            <element signature="e#3623#6978#0" />
+            <element signature="e#3749#4016#0" />
+            <element signature="e#4061#4781#0" />
+            <element signature="e#4828#6364#0" />
+            <element signature="e#6411#6839#0" />
+            <element signature="e#6885#6949#0" />
+            <element signature="e#6995#13090#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+            <element signature="n#!!block;n#getSelectData#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/entity/Rolepermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+          <folding>
+            <element signature="method#select#0;class#RoleController#0" />
+            <element signature="method#selectById#0;class#RoleController#0" />
+            <element signature="method#selectByName#0;class#RoleController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/roleperm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="437" column="32" selection-start-line="437" selection-start-column="24" selection-end-line="437" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#217#0" />
+            <element signature="e#248#5151#0" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#5183#8071#0" />
+            <element signature="e#5309#5506#0" />
+            <element signature="e#5551#6201#0" />
+            <element signature="e#6248#7577#0" />
+            <element signature="e#8175#14270#0" />
+            <element signature="e#14282#14307#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#getSelectData#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#getSelectData2#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/RolepermissionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#193#0" />
+            <element signature="e#225#4618#0" />
+            <element signature="e#311#4113#0" />
+            <element signature="e#4177#4592#0" />
+            <element signature="e#4650#11026#0" />
+            <element signature="e#4874#5348#0" />
+            <element signature="e#5393#6507#0" />
+            <element signature="e#6554#8137#0" />
+            <element signature="e#8183#8930#0" />
+            <element signature="e#11043#17138#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#checkForm2#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+            <element signature="n#!!block;n#sendMS#0" />
+            <element signature="n#!!block;n#getSelData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/showemp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="135" column="29" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#195#0" />
+            <element signature="e#227#4678#0" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#4131#4652#0" />
+            <element signature="e#4710#9419#0" />
+            <element signature="e#4992#5353#0" />
+            <element signature="e#5398#6523#0" />
+            <element signature="e#6570#8117#0" />
+            <element signature="e#6982#8105#0" />
+            <element signature="e#8164#8584#0" />
+            <element signature="e#9114#9184#0" />
+            <element signature="e#9230#15325#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#checkForm2#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+            <element signature="n#!!block;n#getSelectData#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error-500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CustomerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-939">
+          <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/RolepermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="66" />
+          <folding>
+            <element signature="method#update#0;class#RolepermissionController#0" />
+            <element signature="method#select#0;class#RolepermissionController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/perm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="120" column="22" lean-forward="true" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#174#0" />
+            <element signature="e#205#4179#0" />
+            <element signature="e#4337#4601#0" />
+            <element signature="e#4646#5535#0" />
+            <element signature="e#5582#7160#0" />
+            <element signature="e#7207#7564#0" />
+            <element signature="e#7610#7674#0" />
+            <element signature="e#7720#13815#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#checkForm2#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <folding>
+            <element signature="e#221#255#0" />
+            <element signature="n#!!block;n#baseOnWindowSizeToChange#0" />
+            <element signature="e#1417#1531#0" />
+            <element signature="e#1571#1646#0" />
+            <element signature="e#1687#2445#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#getSelectData#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="method#insert#0;class#PermissionController#0" />
+            <element signature="method#update#0;class#PermissionController#0" />
+            <element signature="method#delete#0;class#PermissionController#0" />
+            <element signature="method#select#0;class#PermissionController#0" />
+            <element signature="method#selectByInfo#0;class#PermissionController#0" />
+            <element signature="method#selectById#0;class#PermissionController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Emp/customervisit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#14#354#0" />
+            <element signature="e#385#4728#0" />
+            <element signature="e#519#4212#0" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#4284#4702#0" />
+            <element signature="e#4760#8576#0" />
+            <element signature="e#4984#5494#0" />
+            <element signature="e#5539#6577#0" />
+            <element signature="e#8593#14688#0" />
+            <element signature="n#!!block;n#checkForm#0" />
+            <element signature="n#!!block;n#checkForm2#0" />
+            <element signature="n#!!block;n#closeCheck#0" />
+            <element signature="n#!!block;n#send#0" />
+            <element signature="n#!!block;n#getSelData#0" />
+            <element signature="n#style#0;n#option#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showEmp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/UnathController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="1" column="134" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjf/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="87" column="61" lean-forward="true" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="61" />
+          <folding>
+            <element signature="method#insert#0;class#CustomerController#0" />
+            <element signature="method#update#0;class#CustomerController#0" />
+            <element signature="method#move#0;class#CustomerController#0" />
+            <element signature="method#selectCus#0;class#CustomerController#0" />
+            <element signature="method#selectById#0;class#CustomerController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error-404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5414">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="52" column="26" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CRM:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|CRM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.18</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20215634" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+{
+  "name" : "Customershare",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "shareid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "cusid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "empid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.hjf",
+  "savePath" : "./src/main/java/com/hjf",
+  "saveModelName" : "CRM"
+}

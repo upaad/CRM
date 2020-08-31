@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD apper 3.0//EN"
+        "http://mybatis.org//dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjf.dao.EmpDao">
+    <sql id="empColumn">
+        empid, username, password, tel, name, email, roleid
+    </sql>
+
+    <insert id="insertEmp">
+        insert into employees (username, password, tel, name, email, roleid)
+        values(#{username},#{password},#{tel},#{name},#{email},#{roleid} )
+    </insert>
+    <update id="updateEmp">
+        update employees
+        <set>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="tel != null and tel != ''">
+                tel = #{tel},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+            <if test="roleid != null and roleid != 0">
+                roleid = #{roleid},
+            </if>
+        </set>
+        <where>
+            empid = #{empid}
+        </where>
+    </update>
+
+    <update id="resetpwd">
+        update employees set password = '123456' where roleid = '3'
+    </update>
+
+    <delete id="deleteEmp">
+        delete from employees
+        <where>
+            empid = #{empid}
+        </where>
+    </delete>
+
+    <select id="getAllEmp" resultType="com.hjf.entity.Emp">
+        select <include refid="empColumn"/> from employees
+    </select>
+
+    <select id="selectById" resultType="com.hjf.entity.Emp">
+        select empid, username, password, tel, name, email, employees.roleid,roleName,roleInfo from employees,role
+        <where>
+            role.roleId = employees.roleid and empid = #{empid}
+        </where>
+    </select>
+    <select id="selectByIdUname" resultType="com.hjf.entity.Emp">
+        select <include refid="empColumn"/>
+        from employees
+        <where>
+            <if test="empid != 0">
+                and empid = #{empid}
+            </if>
+            <if test="username != ''">
+                and username like concat('%',#{username} ,'%')
+            </if>
+        </where>
+    </select>
+    <select id="selectByLimit" resultType="com.hjf.entity.Emp">
+        select <include refid="empColumn"/>from employees
+        limit #{first},#{maxResult}
+    </select>
+
+    <select id="selectByName" resultType="com.hjf.entity.Emp">
+        select employees.*,roleInfo from employees,role
+         <where>
+             employees.roleid = role.roleId and username = #{username}
+         </where>
+    </select>
+
+    <select id="login" resultType="com.hjf.entity.Emp">
+        select empid, username, password, tel, name, email, employees.roleid,roleInfo from employees,role
+        <where>
+            role.roleId = employees.roleid and username = #{username} and password = #{password}
+         </where>
+    </select>
+
+    <select id="select" resultType="com.hjf.entity.Emp">
+        select <include refid="empColumn"/> from employees
+        <where>
+            <if test="empid != null and empid != 0">
+                and empid = #{empid}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="tel != null and tel != ''">
+                and tel = #{tel}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+            <if test="roleid != null and roleid != 0">
+                and roleid = #{roleid}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectByName2" resultType="com.hjf.entity.Emp">
+        select employees.*,roleInfo from employees,role
+        <where>
+            employees.roleid = role.roleId and username = #{username}
+        </where>
+    </select>
+
+    <select id="selectByList" resultType="com.hjf.entity.Emp">
+        select <include refid="empColumn"/> from employees
+        <where>
+            <if test="emp.empid != null and emp.empid != 0">
+                and empid = #{emp.empid}
+            </if>
+            <if test="emp.username != null and emp.username != ''">
+                and username = #{emp.username}
+            </if>
+            <if test="emp.password != null and emp.password != ''">
+                and password = #{emp.password}
+            </if>
+            <if test="emp.tel != null and emp.tel != ''">
+                and tel = #{emp.tel}
+            </if>
+            <if test="emp.name != null and emp.name != ''">
+                and name = #{emp.name}
+            </if>
+            <if test="emp.email != null and emp.email != ''">
+                and email = #{emp.email}
+            </if>
+            <if test="emp.roleid != null and emp.roleid != 0">
+                and roleid = #{emp.roleid}
+            </if>
+            <if test="roleInfo == 'emp'">
+                and roleid <![CDATA[<>]]> (SELECT roleId from role where roleInfo = 'admin' and roleInfo = 'manager')
+            </if>
+            <if test="roleInfo == 'manager'">
+                and roleid <![CDATA[<>]]> (SELECT roleId from role where roleInfo = 'admin')
+            </if>
+        </where>
+    </select>
+</mapper>

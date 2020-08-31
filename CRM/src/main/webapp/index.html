@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <!-- bootstrap & fontawesome -->
+    <link href="js/plugin/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="css/fonts.googleapis.com.css" />
+
+
+    <link rel="stylesheet" href="css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="stylesheet" href="css/ace-skins.min.css" />
+    <link rel="stylesheet" href="css/ace-rtl.min.css" />
+    <script src="js/plugin/ace/ace-extra.min.js"></script>
+</head>
+<body>
+<div class="main-container ace-save-state" id="main-container">
+    <div class="main-content">
+        <div class="main-content-inner">
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="error-container">
+                            <div class="well">
+                                <h1 class="grey lighter smaller">
+											<span class="blue bigger-125">
+												<i class="ace-icon fa fa-home icon-animated-wrench bigger-125"></i>
+                                                Welcome,
+											</span>
+                                    <span id="txt_name">User</span>
+                                    <span>欢迎登陆</span>
+                                </h1>
+                                <hr />
+                            </div>
+                        </div>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.page-content -->
+        </div>
+    </div><!-- /.main-content -->
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/plugin/bootstrap/js/bootstrap.js"></script>
+<script src="js/plugin/ace/ace-elements.min.js"></script>
+<script src="js/plugin/ace/ace.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#txt_name").html(sessionStorage.getItem("name"))
+    })
+</script>
+</body>
+</html>

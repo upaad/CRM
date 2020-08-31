@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjf.dao.CustomershareDao">
+
+    <resultMap type="com.hjf.entity.Customershare" id="CustomershareMap">
+        <result property="shareid" column="shareId" jdbcType="INTEGER"/>
+        <result property="cusid" column="cusId" jdbcType="INTEGER"/>
+        <result property="empid" column="empId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CustomershareMap">
+        select
+          shareId, cusId, empId
+        from java0608.customershare
+        where shareId = #{shareid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CustomershareMap">
+        select
+          shareId, cusId, empId
+        from java0608.customershare
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CustomershareMap">
+        select
+          shareId, cusId, empId
+        from java0608.customershare
+        <where>
+            <if test="shareid != null">
+                and shareId = #{shareid}
+            </if>
+            <if test="cusid != null">
+                and cusId = #{cusid}
+            </if>
+            <if test="empid != null">
+                and empId = #{empid}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectByCS" resultType="com.hjf.entity.Customershare">
+        select
+        shareId, cusId, empId
+        from java0608.customershare
+        <where>
+            <if test="cusid != null and cusid != 0">
+                and cusId = #{cusid}
+            </if>
+            <if test="empid != null and empid != 0">
+                and empId = #{empid}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="shareid" useGeneratedKeys="true">
+        insert into java0608.customershare(cusId, empId)
+        values (#{cusid}, #{empid})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update java0608.customershare
+        <set>
+            <if test="cusid != null">
+                cusId = #{cusid},
+            </if>
+            <if test="empid != null">
+                empId = #{empid},
+            </if>
+        </set>
+        where shareId = #{shareid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from java0608.customershare where shareId = #{shareid}
+    </delete>
+
+</mapper>
